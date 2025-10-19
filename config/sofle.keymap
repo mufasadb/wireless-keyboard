@@ -103,11 +103,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&tog 3        &tog 0      &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4                    &trans     &trans    &trans    &trans     &trans   &kp DELETE
-&trans        &kp INS     &kp PSCRN         &kp K_CMENU   &trans            &trans                          &kp PG_UP  &trans    &kp UP    &trans     &kp N0   &kp BACKSPACE
-&trans        &kp LG(A)   &kp LCTRL         &kp LSHFT     &trans            &kp CLCK                        &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
-&kp CAPSLOCK  &kp K_UNDO  &kp K_CUT         &kp K_COPY    &kp K_PASTE       &trans        &trans    &trans  &trans     &trans    &trans    &trans     &trans   &trans
-                          &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans        &trans    &trans  &trans     &trans    &trans    &trans
+&tog 3        &tog 0         &bt BT_SEL 1          &bt BT_SEL 2         &bt BT_SEL 3      &bt BT_SEL 4                    &trans     &trans    &trans    &trans     &trans   &kp DELETE
+&trans        &kp LG(LS(Q))  &kp LG(LS(NUMBER_4))  &kp LG(LS(K_CMENU))  &trans            &trans                          &kp PG_UP  &trans    &kp UP    &trans     &kp N0   &kp BACKSPACE
+&trans        &kp LG(A)      &kp LG(S)             &kp LSHFT            &trans            &kp CLCK                        &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
+&kp CAPSLOCK  &kp LG(Z)      &kp LG(X)             &kp LG(C)            &kp LG(V)         &trans        &trans    &trans  &trans     &trans    &trans    &trans     &trans   &trans
+                             &kp LEFT_CONTROL      &kp LEFT_ALT         &kp LEFT_COMMAND  &trans        &trans    &trans  &trans     &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
