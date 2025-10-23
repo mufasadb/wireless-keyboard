@@ -66,7 +66,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+                <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         lower_layer {
@@ -102,7 +102,7 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans          &trans         &trans                &trans          &trans            &trans                      &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp DELETE
+&tog 0          &tog 3         &trans                &trans          &trans            &trans                      &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp DELETE
 &trans          &kp LG(LC(Q))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))  &trans            &trans                      &kp PG_UP   &trans             &kp UP           &trans            &trans      &kp BACKSPACE
 &kp CLCK        &kp LG(A)      &kp LG(S)             &kp LSHFT       &trans            &kp CLCK                    &kp PG_DN   &kp LEFT           &kp DOWN         &kp RIGHT         &trans      &trans
 &kp LEFT_SHIFT  &kp LG(Z)      &kp LG(X)             &kp LG(C)       &kp LG(V)         &trans    &trans    &trans  &trans      &trans             &trans           &trans            &trans      &trans
@@ -124,7 +124,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+                <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         raised_linux_layer {
